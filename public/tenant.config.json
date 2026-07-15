@@ -1,38 +1,204 @@
 {
-  "_note": "This file is overwritten by the Apotome provisioning service during site generation. Edit your live content from /admin.",
+  "_generated": "2026-07-15T16:13:36.118Z",
   "archetype": "mesa",
-  "brand": "The Mesa Restaurant",
-  "tagline": "Fresh, Local, Unforgettable",
-  "blurb": "A warm gathering place where every dish tells a story.",
-  "theme": "earth",
-  "swatch": "default",
-  "variant": "classic",
+  "brand": "Chopper's Pizza",
+  "tagline": "It's Pizza",
+  "blurb": "Chopper's Pizza serves up incredible artisan pies using only the freshest ingredients, guaranteeing a delicious and memorable meal every time.",
+  "theme": "studio",
+  "swatch": "synthwave",
+  "variant": "essentials",
   "contact": {
-    "address": "123 Main St, Trinidad, CO 81082",
-    "phone": "(719) 555-0100",
-    "email": "hello@example.com",
+    "address": "123 Fake Street",
+    "phone": "9407651403",
+    "email": "zackleejohnston@gmail.com",
     "mapEmbedUrl": ""
   },
+  "story": {
+    "title": "Chopper Mountain's Pizza Story",
+    "paragraphs": [
+      "At Chopper's Pizza, our story is simple: a deep-seated passion for crafting the perfect pie. What started as Chopper's personal quest for the ultimate slice evolved into a shared dedication, built on fresh, quality ingredients and a commitment to time-honored pizza-making traditions. Every pizza we serve is a testament to that journey, baked with care and designed to bring a genuine taste of handcrafted deliciousness from our oven straight to your table.",
+      "Get the Za dude"
+    ],
+    "facts": [
+      {
+        "label": "Founded",
+        "value": "2019"
+      },
+      {
+        "label": "Summoned",
+        "value": "2021"
+      },
+      {
+        "label": "",
+        "value": ""
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "My stomach hurts",
+      "author": "Dave R. ",
+      "source": "Somewhere in CO"
+    },
+    {
+      "quote": "My wife divorced me at the resturant ",
+      "author": "Marty T.",
+      "source": "allegedly still there"
+    },
+    {
+      "quote": "I got the bug at Chopper's",
+      "author": "Kevin B. ",
+      "source": "reformed"
+    }
+  ],
+  "social": [
+    {
+      "label": "Instagram",
+      "href": "https://www.instagram.com/choppermountain/"
+    },
+    {
+      "label": "Facebook",
+      "href": ""
+    }
+  ],
   "hours": [
-    { "day": "Mon–Thu", "open": "11am – 9pm" },
-    { "day": "Fri–Sat", "open": "11am – 10pm" },
-    { "day": "Sunday", "open": "Closed" }
+    {
+      "day": "Monday",
+      "open": "Closed"
+    },
+    {
+      "day": "Tue – Thu",
+      "open": "11:00 – 9:00"
+    },
+    {
+      "day": "Fri – Sat",
+      "open": "11:00 – 10:00"
+    },
+    {
+      "day": "Sunday",
+      "open": "10:00 – 8:00"
+    }
   ],
   "photos": {
-    "hero": { "src": "/images/hero.jpg", "alt": "Restaurant interior" },
-    "about": { "src": "/images/about.jpg", "alt": "Chef at work" },
-    "gallery": []
-  },
-  "story": {
-    "title": "Our Story",
-    "paragraphs": ["A neighborhood restaurant with roots in the community."],
-    "facts": []
+    "hero": {
+      "src": "/photos/hero.jpg",
+      "alt": "",
+      "caption": ""
+    },
+    "about": {
+      "src": "/photos/about.jpg",
+      "alt": "",
+      "caption": ""
+    },
+    "gallery": [
+      {
+        "src": "/photos/gallery-01.jpg",
+        "alt": "",
+        "caption": ""
+      },
+      {
+        "src": "/photos/gallery-02.jpg",
+        "alt": "",
+        "caption": ""
+      },
+      {
+        "src": "/photos/gallery-03.jpg",
+        "alt": "",
+        "caption": ""
+      },
+      {
+        "src": "/photos/gallery-04.jpg",
+        "alt": "",
+        "caption": ""
+      },
+      {
+        "src": "/photos/gallery-05.jpg",
+        "alt": "",
+        "caption": ""
+      },
+      {
+        "src": "/photos/gallery-06.jpg",
+        "alt": "",
+        "caption": ""
+      },
+      {
+        "src": "/photos/gallery-07.jpg",
+        "alt": "",
+        "caption": ""
+      },
+      {
+        "src": "/photos/gallery-08.jpg",
+        "alt": "",
+        "caption": ""
+      }
+    ]
   },
   "menu": {
-    "intro": "",
-    "categories": [],
-    "fullMenuUrl": ""
-  },
-  "testimonials": [],
-  "social": []
+    "intro": "Chopper's Chops",
+    "fullMenuUrl": "",
+    "categories": [
+      {
+        "name": "Small plates",
+        "description": "",
+        "items": [
+          {
+            "name": "Chopped Pizza",
+            "description": "Chopped up pizza in a bowl",
+            "price": "$37",
+            "tags": [
+              "MEAT"
+            ]
+          },
+          {
+            "name": "",
+            "description": "",
+            "price": "",
+            "tags": []
+          },
+          {
+            "name": "",
+            "description": "",
+            "price": "",
+            "tags": []
+          }
+        ]
+      },
+      {
+        "name": "Mains",
+        "description": "",
+        "items": [
+          {
+            "name": "",
+            "description": "",
+            "price": "",
+            "tags": []
+          },
+          {
+            "name": "",
+            "description": "",
+            "price": "",
+            "tags": []
+          },
+          {
+            "name": "",
+            "description": "",
+            "price": "",
+            "tags": []
+          }
+        ]
+      },
+      {
+        "name": "Dessert",
+        "description": "",
+        "items": [
+          {
+            "name": "",
+            "description": "",
+            "price": "",
+            "tags": []
+          }
+        ]
+      }
+    ]
+  }
 }
